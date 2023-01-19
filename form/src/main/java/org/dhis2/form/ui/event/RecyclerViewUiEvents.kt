@@ -80,4 +80,9 @@ sealed class RecyclerViewUiEvents {
     data class OpenOptionSetDialog(
         val field: FieldUiModel
     ) : RecyclerViewUiEvents()
+
+    data class OpenChooserIntent(
+        val action: String,
+        val value: String?
+    ) : RecyclerViewUiEvents()
 }

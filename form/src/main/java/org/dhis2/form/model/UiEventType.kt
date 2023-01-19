@@ -12,5 +12,7 @@ enum class UiEventType {
     SHOW_DESCRIPTION,
     COPY_TO_CLIPBOARD,
     QR_CODE,
-    OPTION_SET
+    OPTION_SET,
+    EMAIL,
+    PHONE_NUMBER
 }
